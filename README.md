@@ -12,11 +12,16 @@ After that you need to open terminal inside this great project and type:
 ```
 python3 -m venv venv
 venv/bin/activate
-pip instal -r requirements.txt
+pip install -r requirements.txt
 uvicorn main:app
 ```
 
 Now you can open http://localhost:8000/docs/ in your favorite ~~Chrome~~ browser and go 
 on with documentation.
 
+#### Oh, and also...
+...you can run some tests by typing
+```
+python3 test.py
+```
 
